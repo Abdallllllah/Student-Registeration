@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>IST4035 Students</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body onload="fetchStudents()">
+        <h1>{{x}}</h1>
+        <div>
+            <form>
+                <label>
+                    <span> {{a}}</span>
+                    <input id="studentId" type="text" />
+                </label>
+                <label>
+                    <span>{{b}}</span>
+                    <input id="studentName" type="text" />
+                </label>
+                <label>
+                    <span> </span>
+                    <button onclick="listener(event)">{{y}}</button>
+                </label>
+            </form>
+            
+            <table id="content">
+            </table>
+        </div>
+
+    </body>
+    <script src="js/main.js"></script>
+
+</html>
